@@ -1,0 +1,33 @@
+.socnet {
+    display: flex;
+    justify-content: center;
+}
+
+.socnet__item {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socnet__item:not(last-child) {
+    margin-right: 10px;
+}
+
+.socnet__icon {
+    justify-content: center;
+    align-items: center;
+    fill: var(--ico-regular-color);
+}
+
+.socnet__item:hover,
+.socnet__item:focus {
+    background-color: var(--ico-accent-color);
+}
+
+.socnet__item:hover .socnet__icon,
+.socnet__item:focus .socnet__icon {
+    fill: var(--ico-ligt-accent-color);
+}

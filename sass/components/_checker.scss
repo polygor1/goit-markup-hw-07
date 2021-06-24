@@ -1,0 +1,37 @@
+.checker {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.checker__checkbox {
+    appearance: none;
+    position: relative;
+}
+
+.checker__label {
+    position: relative;
+}
+
+.checker__icon,
+.checker__icon-check {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.checker__icon {
+    fill: var(--ico-title-color);
+}
+
+.checker__icon-check {
+    fill: var(--ico-transparent-color);
+}
+
+.checker__checkbox:checked+.checker__label .checker__icon-check {
+    fill: var(--ico-accent-color);
+}

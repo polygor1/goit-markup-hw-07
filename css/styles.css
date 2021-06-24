@@ -119,7 +119,7 @@ ul {
 
 /* ---HEADER--- */
 
-.header {
+/* .header {
   margin-top: 0px;
   padding: 25px 0 23px 0;
   border-bottom: 1px solid var(--border-color);
@@ -127,7 +127,7 @@ ul {
 .header .container {
   display: flex;
   flex-direction: row;
-}
+} */
 /* .logo {
   font-family: var(--logo-font);
   font-weight: 700;
@@ -140,8 +140,7 @@ ul {
 .logo__part {
   color: var(--logo-color);
 } */
-.navigation,
-.eadress {
+/* .navigation {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1428;
@@ -213,11 +212,11 @@ ul {
 .eadr__tel:focus .eadr__ico {
   fill: var(--touch-color);
   cursor: pointer;
-}
+} */
 
 /* --- HERO--- */
 
-.hero {
+/* .hero {
   background-color: var(--background-face-color);
   color: var(--page-color);
   padding: 0;
@@ -255,10 +254,16 @@ ul {
   background-color: var(--touch-color);
   box-shadow: 0px 4px 4px #00000000;
   cursor: pointer;
-}
+} */
 
 /* ---FEATURES--- */
-.features {
+
+/* .features {
+  
+}
+.features__title {
+  font-size: 0px;
+  margin-bottom: 0;
 }
 .features__list {
   display: flex;
@@ -293,10 +298,10 @@ ul {
   line-height: 1.714;
   letter-spacing: 0.03em;
   margin-top: 10px;
-}
+} */
 
 /* ---INSIDE--- */
-
+/* 
 .inside {
   padding-top: 0;
   justify-content: center;
@@ -322,11 +327,11 @@ ul {
   bottom: 0;
 
   color: var(--face-color);
-}
+} */
 
 /* ---TEAM--- */
 
-.team {
+/* .team {
   background-color: var(--background-team-color);
   text-align: center;
 }
@@ -360,8 +365,8 @@ ul {
   color: var(--regular-color);
   margin-top: 10px;
   margin-bottom: 16px;
-}
-.socnet {
+} */
+/* .socnet {
   display: flex;
   justify-content: center;
 }
@@ -388,11 +393,11 @@ ul {
 .socnet__item:hover .socnet__icon,
 .socnet__item:focus .socnet__icon {
   fill: var(--ico-ligt-accent-color);
-}
+} */
 
 /* ---REGULAR CUSTOMERS--- */
 
-.customers {
+/* .customers {
   padding: 120px 0 96px;
 }
 
@@ -420,11 +425,11 @@ ul {
 .customers__item:hover .customers__icon,
 .customers__item:focus .customers__icon {
   fill: var(--ico-accent-color);
-}
+} */
 
 /* ---FOOTER--- */
 
-.footer {
+/* .footer {
   background-color: var(--background-footer-color);
   color: var(--footer-color);
   padding-top: 60px;
@@ -476,8 +481,8 @@ ul {
   text-transform: uppercase;
   color: var(--footer-color);
   margin-bottom: 20px;
-}
-.join {
+} */
+/* .join {
   display: flex;
   flex-direction: column;
   width: 206px;
@@ -495,9 +500,9 @@ ul {
 .join .socnet__item:focus {
   background-color: var(--ico-accent-color);
   fill: var(--ico-ligt-accent-color);
-}
+} */
 
-.subscr {
+/* .subscr {
   display: flex;
   flex-direction: column;
   margin-top: 12px;
@@ -541,11 +546,11 @@ ul {
 .button__ico {
   margin-left: 10px;
   fill: var(--footer-color);
-}
+} */
 
 /* === MODAL WINDOW === */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -556,8 +561,8 @@ ul {
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
-}
-.modal {
+} */
+/* .modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -568,8 +573,8 @@ ul {
     0px 2px 1px #00000033;
   border-radius: 4px;
   padding: 40px;
-}
-.button__close {
+} */
+/* .button__close {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -590,8 +595,8 @@ ul {
 .button__close:focus .button__close--icon {
   fill: var(--touch-color);
   cursor: pointer;
-}
-.callback {
+} */
+/* .callback {
   display: flex;
   flex-direction: column;
 }
@@ -668,11 +673,11 @@ ul {
   line-height: 1.667;
   letter-spacing: 0.01em;
   color: #75757580;
-}
+} */
 
 /* ---checker--- */
 
-.checker {
+/* .checker {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -702,8 +707,8 @@ ul {
 }
 .checker__checkbox:checked + .checker__label .checker__icon-check {
   fill: var(--ico-accent-color);
-}
-.modal__text {
+} */
+/* .modal__text {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
@@ -715,10 +720,10 @@ ul {
   color: var(--touch-color);
   cursor: pointer;
   margin-left: 0;
-}
+} */
 
 /* ---send btn--- */
-
+/* 
 .butoon__submit {
   letter-spacing: 0.06em;
   margin: 30px auto 0;
@@ -728,13 +733,13 @@ ul {
 .butoon__submit:focus {
   cursor: pointer;
   background-color: var(--btn-send-accent-color);
-}
+} */
 
 /* === PORTFOLIO === */
 
 /* ---SEARSH BAR-- */
 
-.button__bar {
+/* .button__bar {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -762,11 +767,11 @@ ul {
   color: var(--face-color);
   box-shadow: 0px 3px 1px #0000001a, 0px 1px 2px #00000014,
     0px 2px 2px #0000001f;
-}
+} */
 
 /* ---PORTFOLIO--- */
 
-.portfolio {
+/* .portfolio {
   font-weight: 700;
   font-style: normal;
   font-size: 18px;
@@ -780,8 +785,8 @@ ul {
 .portfolio__list {
   display: flex;
   flex-flow: row wrap;
-}
-.card {
+} */
+/* .card {
   display: flex;
   position: relative;
   flex-flow: column;
@@ -830,15 +835,15 @@ ul {
   line-height: 1.556;
   letter-spacing: 0.03em;
   color: var(--face-color);
-}
-
-.portfolio__text {
+} */
+/* 
+.card__box {
   padding: 20px 24px 19px;
   border-left: 1px solid var(--prtf-border-color);
   border-right: 1px solid var(--prtf-border-color);
   border-bottom: 1px solid var(--prtf-border-color);
 }
-.portfolio__text--regular {
+.card__box--regular {
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
@@ -846,7 +851,7 @@ ul {
   letter-spacing: 0.03em;
   color: var(--regular-color);
   margin-top: 4px;
-}
+} */
 
 /* THE END */
 /* Поки що... */
