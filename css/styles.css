@@ -1,5 +1,5 @@
 /* VARIABLES */
-:root {
+/* :root {
   --main-font: 'Roboto', sans-serif;
   --logo-font: 'Raleway', sans-serif;
   --logo-color: #2196f3;
@@ -31,9 +31,9 @@
   --background-footer-icon-color: #ffffff1a;
   --background-prtf-card-slide-color: #2196f3e6;
   --backgound-inside-color: #2f303acc;
-}
+} */
 
-* {
+/* * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -115,7 +115,8 @@ ul {
   font-size: 16px;
   line-height: 1.875;
   color: var(--face-color);
-}
+} */
+
 /* ---HEADER--- */
 
 .header {
@@ -127,7 +128,7 @@ ul {
   display: flex;
   flex-direction: row;
 }
-.logo {
+/* .logo {
   font-family: var(--logo-font);
   font-weight: 700;
   font-size: 26px;
@@ -138,7 +139,7 @@ ul {
 }
 .logo__part {
   color: var(--logo-color);
-}
+} */
 .navigation,
 .eadress {
   font-weight: 500;
