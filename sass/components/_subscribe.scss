@@ -1,12 +1,11 @@
 .subscr {
-    display: flex;
-    flex-direction: column;
-    margin-top: 12px;
-    margin-left: auto;
-    margin-right: 0;
-}
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+  margin-left: auto;
+  margin-right: 0;
 
-.subscr__input {
+  &__input {
     align-items: center;
     width: 358px;
     height: 50px;
@@ -25,21 +24,11 @@
     line-height: 1.25;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-}
 
-.subscr__input:hover,
-.subscr__input:focus {
-    color: var(--footer-color);
-}
-
-.subscr__butoon {
-    display: inline-flex;
-    letter-spacing: 0.03em;
-    padding: 6px 22px;
-}
-
-.subscr__butoon:hover,
-.subscr__butoon:focus {
-    cursor: pointer;
+    &:hover,
+    &:focus {
+      color: var(--footer-color);
+    }
+  }
 }
 

@@ -3,20 +3,21 @@
     flex-direction: column;
     width: 206px;
     margin-top: 12px;
-}
 
-.join .socnet__item {
-    background-color: var(--background-footer-icon-color);
-}
 
-.join .socnet__icon {
-    fill: var(--ico-ligt-color);
-}
+  & .socnet__item {
+      background-color: var(--background-footer-icon-color);
+  }
 
-.join .socnet__icon:hover,
-.join .socnet__icon:focus,
-.join .socnet__item:hover,
-.join .socnet__item:focus {
-    background-color: var(--ico-accent-color);
-    fill: var(--ico-ligt-accent-color);
+  & .socnet__icon {
+      fill: var(--ico-ligt-color);
+  }
+
+  & .socnet__icon:hover,
+  & .socnet__icon:focus,
+  & .socnet__item:hover,
+  & .socnet__item:focus {
+      background-color: var(--ico-accent-color);
+      fill: var(--ico-ligt-accent-color);
+  }
 }

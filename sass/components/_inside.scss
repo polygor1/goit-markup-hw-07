@@ -1,20 +1,19 @@
 .inside {
-    padding-top: 0;
-    justify-content: center;
-    align-self: center;
-}
+  padding-top: 0;
+  justify-content: center;
+  align-self: center;
 
-.inside__list {
+  &__list {
     display: flex;
     justify-content: space-between;
-}
+  }
 
-.inside__card {
+  &__card {
     position: relative;
     overflow: hidden;
-}
+  }
 
-.inside__text {
+  &__text {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,6 +22,6 @@
     background-color: var(--backgound-inside-color);
     position: absolute;
     bottom: 0;
-
     color: var(--face-color);
-}
+  }
+} 

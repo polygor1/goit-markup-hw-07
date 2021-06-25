@@ -33,26 +33,10 @@ h3 {
     text-transform: uppercase;
 }
 
-.portfolio-text h3 {
-    font-style: normal;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-    text-transform: none;
-}
-
 h2,
-h3,
-.portfolio-text h3,
-.callback h2 {
+h3 {
     font-weight: 700;
     color: var(--title-color);
-}
-
-.callback h2 {
-    font-size: 20px;
-    line-height: 1.15;
-    margin-bottom: 0;
 }
 
 ul {
