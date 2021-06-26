@@ -11,25 +11,25 @@
 
   &__icon,
   &__icon-check {
-      position: absolute;
-      top: 50%;
-      left: 0;
-      transform: translateY(-50%);
-      cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    cursor: pointer;
   }
 
   &__icon {
-      fill: var(--ico-title-color);
+    fill: var(--ico-title-color);
   }
 
   &__icon-check {
-      fill: var(--ico-transparent-color);
+    fill: var(--ico-transparent-color);
   }
   &__checkbox {
-      appearance: none;
-      position: relative;
+    appearance: none;
+    position: relative;
   }
   &__checkbox:checked+&__label &__icon-check {
-      fill: var(--ico-accent-color);
+    fill: var(--ico-accent-color);
   }
 }
